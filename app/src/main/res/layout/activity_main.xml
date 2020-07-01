@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/fbBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="#46629E"
+        android:drawableLeft="@drawable/facebook"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="Se connecter via Faceboook"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/twitterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fbBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="#39A6CE"
+        android:drawableLeft="@drawable/twitter"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="Se connecter via Twitter"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/gplusBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twitterBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="#DD4B39"
+        android:drawableLeft="@drawable/gplus"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="Se connecter via Google"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
