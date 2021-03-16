@@ -10,6 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button twitterBtn, fbBtn, gplusBtn;
+    // ceci est un test !!
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
